@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Service-booking-dashboard/",
+  base: "/bright-english-booking/",
   plugins: [react(), tailwindcss()],
 })
