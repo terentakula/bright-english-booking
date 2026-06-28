@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-page: #fffaf4;
+  --color-brand-cream: #fff0dd;
+  --color-brand-soft: #f5e9dd;
+  --color-brand-orange: #f39200;
+  --color-brand-brown: #7a3518;
+}
+
+:root {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #7a3518;
+  background: #fffaf4;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(243, 146, 0, 0.1),
+      transparent 28rem
+    ),
+    #fffaf4;
+}
+
+@layer utilities {
+  .shadow-brand {
+    box-shadow: 0 12px 30px rgba(122, 53, 24, 0.16);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
