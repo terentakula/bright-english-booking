@@ -21,7 +21,7 @@ export function Logo({closeMenu, businessConfig}: LogoProps) {
               {businessConfig.shortName}
             </div>
 
-            <div>
+            <div className="hidden sm:block">
               <p className="font-bold tracking-tight text-brand-brown">
                 {businessConfig.name}
               </p>
